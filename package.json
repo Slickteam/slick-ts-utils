@@ -1,0 +1,40 @@
+{
+  "name": "@slickteam/ts-utils",
+  "description": "Utils functions and classes for typescript",
+  "version": "1.0.0",
+  "keywords": [
+    "Slickteam",
+    "Typescript"
+  ],
+  "license": "MIT",
+  "author": {
+    "email": "ronan.morel@slickteam.fr",
+    "name": "Ronan MOREL",
+    "url": "https://slickteam.fr"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "prettier": "prettier --cache --check .",
+    "prettier:fix": "prettier --cache --write ."
+  },
+  "devDependencies": {
+    "@slickteam/prettier": "^1.0.0",
+    "@types/node": "^22.7.4",
+    "rimraf": "^6.0.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.2"
+  },
+  "prettier": "@slickteam/prettier",
+  "volta": {
+    "node": "22.9.0",
+    "npm": "10.8.3"
+  }
+}
