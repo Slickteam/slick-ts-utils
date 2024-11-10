@@ -8,13 +8,11 @@ function sleep(duration: number): Promise<void> {
 }
 
 function isBoolean(value: string): boolean {
-  return value === "false" || value === "true";
+  return value === 'false' || value === 'true';
 }
 
-function isNumber(
-  value: number | string | boolean | undefined | null
-): boolean {
-  return value != null && value !== "" && !isNaN(Number(value));
+function isNumber(value: number | string | boolean | undefined | null): boolean {
+  return value != null && value !== '' && !isNaN(Number(value));
 }
 
 export { roundNumber, sleep, isBoolean, isNumber };

@@ -1,5 +1,7 @@
 # Slick TS Utils
 
+Available on npmjs.org : [@slickteam/ts-utils](https://www.npmjs.com/package/@slickteam/ts-utils)
+
 ## Usage
 
 - Install dependency
@@ -11,7 +13,7 @@ npm i -S @slickteam/ts-utils
 - Exemple import
 
 ```ts
-import { roundNumber } from "@slickteam/ts-utils";
+import { roundNumber } from '@slickteam/ts-utils';
 
 function test() {
   const res = roundNumber(516.528, 2);
