@@ -1,7 +1,7 @@
 {
   "name": "@slickteam/ts-utils",
   "description": "Utils functions and classes for typescript",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "keywords": [
     "Slickteam",
     "Typescript"
@@ -35,13 +35,13 @@
     "prettier:fix": "slick-prettier --cache --write ."
   },
   "devDependencies": {
-    "@slickteam/prettier": "^2.0.0",
-    "@types/node": "^24.10.9",
-    "rimraf": "^6.1.2",
-    "ts-loader": "^9.5.4",
-    "ts-node": "^10.9.2",
-    "tsconfig-paths": "^4.2.0",
-    "typescript": "^5.9.3"
+    "@slickteam/prettier": "2.0.2",
+    "@types/node": "24.10.10",
+    "rimraf": "6.1.2",
+    "ts-loader": "9.5.4",
+    "ts-node": "10.9.2",
+    "tsconfig-paths": "4.2.0",
+    "typescript": "5.9.3"
   },
   "prettier": "@slickteam/prettier",
   "packageManager": "pnpm@10.28.2"
